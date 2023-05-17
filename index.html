@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>child_loss</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <table border="3" width="100%" >
+        <tr>
+            <td class="first_td">
+                <label for="your_name">Your Name</label><br>
+                <input type="text" id="your_name"><br><br>
+
+                <label for="your_number">Your Phone number</label><br>
+                <input type="text" id="your_number"><br><br>
+
+                <label for="where_from">Where are you from ?</label><br>
+                <input type="text" id="where_from"><br><br>
+
+                <label for="find_child">Where Did You Find This Child ?</label><br>
+                <input type="text" id="find_child"><br><br>
+
+
+                <label for="add">Do You Want to add any thing ?</label><br>
+                <input type="text" id="add"><br><br>
+            </td>
+            <td class="second_td">
+                <button class="next1">Next</button>
+                <div class="drag">
+
+                    <input type="image" class="images" src="./images/download.png"
+                        onclick="document.getElementById('selectedimg').click();">
+                    <input type="file" accept=".gif, .jpeg, .png" id="selectedimg" style="display: none;" />
+
+                    <h3>Drag & Drop To Upload</h3>
+                </div>
+                <button class="next2">Next</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
