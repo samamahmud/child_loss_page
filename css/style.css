@@ -1,6 +1,6 @@
 table {
     border: 3px #317ac7 solid;
-   
+
 }
 
 td {
@@ -12,6 +12,7 @@ td {
     width: 50%;
 
 }
+
 input {
     height: 25px;
     width: 80%;
@@ -48,21 +49,26 @@ label {
     margin: auto;
     position: relative;
 }
-.images{
+
+.images {
     width: 90px;
     height: 60px;
     position: absolute;
     margin-left: 45%;
     margin-top: 10%;
 }
-h3{
+
+h3 {
     color: grey;
     position: absolute;
-    margin-left: 37%;
-    margin-top: 22%;
+    /* margin-left: 37%;
+    margin-top: 22%; */
 }
-.next1, .next2{
+
+.next1,
+.next2 {
     position: absolute;
+    
     background-color: #317ac7;
     border: none;
     color: white;
@@ -70,14 +76,53 @@ h3{
     height: 40px;
     border-radius: 20px;
     font-size: 17px;
-    
+
 }
-.next1{
+
+.next1 {
     top: 55px;
     margin-left: 10px
 }
-.next2{
+
+.next2 {
     margin-left: 500px;
     margin-top: 75px;
 
+}
+
+@media(max-width : 1280px ) {
+   
+    h3{
+        margin-left: 36%;
+        margin-top: 23%;
+    
+    }
+    /* .next2{
+        margin-left: 360px
+    } */
+}
+
+@media(max-width : 900px ) {
+   
+    h3{
+        margin-left: 30%;
+    margin-top: 30%;
+    }
+    .next2{
+        margin-left: 237px;
+    }
+}
+
+@media(max-width : 600px ) {
+    .images {
+        margin-left: 30%;
+        margin-top: 32%;
+    }
+    h3{
+        margin-left: 20%;
+    margin-top: 82%;
+    }
+    .next2{
+        margin-left: 50px;
+    }
 }
